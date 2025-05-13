@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "olist-df-naman-cuProj"
+		},
+		"Datalake_accountKey": {
+			"value": ""
+		},
+		"FilessSqlDb_password": {
+			"value": ""
+		},
+		"SQLToADLSLinkedService_accountKey": {
+			"value": ""
+		},
+		"Datalake_properties_typeProperties_url": {
+			"value": "https://olistdataunclean.dfs.core.windows.net/"
+		},
+		"FilessSqlDb_properties_typeProperties_server": {
+			"value": "wseem.h.filess.io"
+		},
+		"FilessSqlDb_properties_typeProperties_database": {
+			"value": "olistproject_limitedwas"
+		},
+		"FilessSqlDb_properties_typeProperties_username": {
+			"value": "olistproject_limitedwas"
+		},
+		"ForEachInputJson_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/mayank953/BigDataProjects/refs/heads/main/Project-Brazillian%20Ecommerce/ForEachInput.json"
+		},
+		"SQLToADLSLinkedService_properties_typeProperties_url": {
+			"value": "https://olistdataunclean.dfs.core.windows.net/"
+		},
+		"httpGithubDataSource_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/mayank953/"
+		}
+	}
+}
