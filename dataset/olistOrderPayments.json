@@ -1,5 +1,5 @@
 {
-	"name": "MySqlTable1",
+	"name": "olistOrderPayments",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "FilessSqlDb",
