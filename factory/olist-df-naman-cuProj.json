@@ -1,0 +1,9 @@
+{
+	"name": "olist-df-naman-cuProj",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f474c0bc-5d67-4b0d-b478-c2f2d18decd4",
+		"tenantId": "84f7a45c-b662-487c-a8f4-53051afc9d82"
+	}
+}
