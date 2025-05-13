@@ -1,0 +1,17 @@
+{
+	"name": "ParameterJson",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ForEachInputJson",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		},
+		"schema": {}
+	}
+}
